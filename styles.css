@@ -32,6 +32,13 @@ section {
     border: 5px solid #000000; /* Cor e largura da borda */
 }
 
+.retangulo {
+    width: 100%;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    margin-top: 10px;
+}
+
+
 label {
     display: block;
     margin-bottom: 8px;

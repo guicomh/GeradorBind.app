@@ -5,23 +5,22 @@
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>Gerador Bind Vanilla</title>
          <link rel="stylesheet" href="styles.css">
-         <script defer src="scripts.js"></script>
+         <script defer src="script.js"></script>
     </head>
 
     <body>
         <header>
             <a class="vanilla-logo" title="Vanilla" href="https://discord.gg/zFtKv6Wva2"></a>
-           
         </header>
     
         <section>
 
-             <Label for="text"> Texto:</Label> </Label>
+             <label for="text"> Texto:</label>
              <input type="text" name="texto1" id="texto1"> 
              <br>
 
              
-            <label for="opcao">Teclado:</label>
+            <label for="opcao">Tecla:</label>
             <select id="opcao" name="opcao">
                 <option value="f1">F1</option>
                 <option value="f2">F2</option>
@@ -37,16 +36,57 @@
                 <option value="f12">F12</option>
             </select>
 
-                <br>
-        
-            <input type="submit" value="Gerar">
-    
-             
+            <p><label for="anime">🤖Animação</label><br>
+            <select id="anime" name="anime">
+                <option value=""></option>
+                <option value="e wtf; ">🤷‍♂️WTF</option>
+                <option value="e lero; ">🤡Lero</option>
+                <option value="e beijo; ">💋Beijo</option>
+                <option value="e mamamia; ">🤏Mamamia</option>
+                <option value="e varrer; ">🧹Varrer</option>
+                <option value="e boboalegre; ">😁Bobo alegre</option>
+                <option value="e limpar; ">🧼Limpar-se</option>
+                <option value="e dedo3; ">🖐Dedo</option>
+                <option value="e dedo2; ">🤙Dedo 2</option>
+                <option value="e joia3; ">👍Joia</option>
+                <option value="e malhar2; e cruzar; ">🍃Flutuando</option>
+                <option value="e foto37; ">🍑Pose sexy</option>
+                <option value="e tiktok33; ">⭐Dançar tremendo</option>
+                <option value="e swat4; ">☝Rodar dedinho</option>
+                <option value="e wave6; ">👋Acenando</option>
+            </select>
+
+            <br>
+
+            <label for="cor">🎨Selecione a 1ª Cor</label><br>
+            <select name="cor" id="cor">
+                <option value=""></option>
+                <option value="~HC_0~" style="background-color: white;">Branco</option>
+                <option value="~HC_2~" style="background:black; color:white">Preto</option>
+                <option value="~HC_3~" style="background: rgba(155, 155, 155, 255);">Cinza</option>
+                <option value="~HC_6~" style="background: rgba(224, 50, 50, 255)">Vermelho</option>
+                <option value="~HC_7~" style="background: rgba(240, 153, 153, 255);">Rosa 1</option>
+                <option value="~HC_9~" style="background: rgba(93, 182, 229, 255);">Azul 1</option>
+                <option value="~HC_11~" style="background: rgba(47, 92, 115, 255)">Azul 2</option>
+                <option value="~HC_12~" style="background: rgba(240, 200, 80, 255);">Amarelo</option>
+                <option value="~HC_18~" style="background: rgba(114, 204, 114, 255);">Verde 1</option>
+                <option value="~HC_20~" style="background: rgba(57, 102, 57, 255)">Verde 2</option>
+                <option value="~HC_21~" style="background: rgba(132, 102, 226, 255);">Roxo 1</option>
+                <option value="~HC_23~" style="background: rgba(67, 57, 111, 255)">Roxo 2</option>
+                <option value="~HC_24~" style="background: rgba(203, 54, 148, 255);">Rosa 2</option>
+                <option value="~HC_52~" style="background: rgba(42, 166, 185, 255)">Azul 3</option>
+                <option value="~HC_210~" style="background: rgba(0, 255, 0, 255);">Verde 3</option>
+                <option value="~HC_212~" style="background: rgba(0, 0, 255, 255);">Azul 4</option>
+                <option value="~HC_213~" style="background: rgba(255, 0, 255, 255);">Rosa 3</option>
+            </select>
+           
+            <input type="button" value="Gerar" onclick="gerarBind()">
             
-         
+            <!-- Elemento para exibir o resultado -->
+            <textarea id="resultado" class="retangulo"></textarea>
+        </section>
         </section>
     
-        
         <footer>
             <p>&copy; Todos os direitos reservados.</p>
         </footer>
