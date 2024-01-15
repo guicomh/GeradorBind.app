@@ -38,6 +38,12 @@ section {
     margin-top: 10px;
 }
 
+#teclado {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+}
+
 
 label {
     display: block;
