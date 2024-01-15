@@ -1,2 +1,2 @@
-# gerador_bind.github.io
-Site para gerar animação fivem
+# Gerador Bind
+Site para gerar binds de animação (fivem)
