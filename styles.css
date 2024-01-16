@@ -61,7 +61,8 @@ section {
     margin: 20px auto;
     padding: 20px;
     text-align: center;
-    border: 5px solid #000000; /* Cor e largura da borda */
+    border: 10px solid #000000;
+    margin-bottom: 20px; /* Adicione margem inferior à seção */
 }
 
 .retangulo {
