@@ -3,7 +3,7 @@ Site para gerar binds de animação (fivem)
 
 ## Visite Meu Site
 
-🌐 [Link para o seu site](https://geradorbindfivem.netlify.app/)
+🌐 [Link para o site](https://geradorbindfivem.netlify.app/)
 
 ## Tecnologias Utilizadas
 
